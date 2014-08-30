@@ -26,7 +26,7 @@ def conv(files):
 
 if __name__ == "__main__":
     if len(sys.argv) == 1:
-       print("Usage: convert.py file1 file2 ...")
+       print("Usage: 3ds2anaglyph.py file1 file2 ...")
        input("Press Enter to continue...")
        exit()
     conv(sys.argv[1:])
