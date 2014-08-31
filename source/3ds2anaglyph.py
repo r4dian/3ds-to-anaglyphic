@@ -26,7 +26,8 @@ def conv(files):
 
 if __name__ == "__main__":
     if len(sys.argv) == 1:
-       print("Usage: 3ds2anaglyph.py file1 file2 ...")
+       print("""Usage: python 3ds2anaglyph.py file1 file2 ...
+or drag & drop files onto the .exe""")
        input("Press Enter to continue...")
        exit()
     conv(sys.argv[1:])
