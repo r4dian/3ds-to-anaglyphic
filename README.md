@@ -17,3 +17,7 @@ Creates .jpgs alongside the .MPO files you feed it, so if the SD card is full it
 Windows .exe file included for people who can't/won't install Python. Just drag & drop a bunch of .MPO files onto the .exe file.
 
 Currently only produces images for red (left-eye) / cyan (right eye) glasses.
+
+Example output
+--------------
+![Example output: Heidi the Cat](Examples/3D%20Cat.jpg)
